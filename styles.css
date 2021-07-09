@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #B5EAEA;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mainpage {
+    
+    padding-top: 100px;
+}
+
+.topcloud {
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    right: 400px;
+}
+
+.bottom_cloud {
+    display: inline-block;
+    position: absolute;
+    bottom: 380px;
+    left: 390px;
+}

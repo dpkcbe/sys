@@ -1,33 +1,48 @@
 body {
     margin: 0;
     text-align: center;
-    background-color: #B5EAEA;
+    font-family: 'Open Sans', sans-serif;
+    height: 1000px;
 }
 
 h1 {
-    margin: 0;
+    font-size: 500%;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
     font-family: 'Dancing Script', cursive;
 }
 
-p {
-    font-family: 'Open Sans', sans-serif;
+h2 {
+    position: relative;
+    color: #66BFBF;
+    top: 10px;
+    font-weight: normal;
+    font-size: 2rem;
 }
 
 .mainpage {
-    
+    background-color: #B5EAEA;
     padding-top: 100px;
 }
 
 .topcloud {
     display: inline-block;
     position: absolute;
-    top: 50px;
+    top: 70px;
     right: 400px;
 }
 
 .bottom_cloud {
     display: inline-block;
     position: absolute;
-    bottom: 380px;
+    bottom: 200px;
     left: 390px;
+}
+
+a {
+    color: #11999E;
+}
+
+.bottom-container {
+    background-color: #B8DFD8;
 }
